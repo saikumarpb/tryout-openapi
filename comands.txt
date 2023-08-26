@@ -1,0 +1,5 @@
+Generate a node js client form openAPI spec :
+npx openapi-typescript-codegen -i ./build/swagger.json -o node-client -c fetch
+
+build command: 
+npx tsc --outDir build --experimentalDecorators  
